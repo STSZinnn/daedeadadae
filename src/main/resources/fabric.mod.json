@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "frostclient",
+  "version": "${version}",
+  "name": "Frost Client",
+  "description": "Configurable icy client-side HUD, PvP indicators, waypoints and calculators.",
+  "authors": [
+    "Frost Client"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.frostclient.FrostClient"
+    ]
+  },
+  "mixins": [
+    "frostclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/frostclient/icon.png"
+}

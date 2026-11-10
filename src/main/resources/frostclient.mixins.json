@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "package": "dev.frostclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MouseHandlerMixin",
+    "CrosshairMixin",
+    "ChatComponentMixin",
+    "ScoreboardSidebarMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
